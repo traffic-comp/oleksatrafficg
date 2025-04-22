@@ -47,7 +47,7 @@ const handleClick = async function (e) {
       const base = stringToBase64(data);
 
       await fetch(
-        'https://network-leads-d5f31c95b87f.herokuapp.com/record?username=&fullname=&userId=&payload=нетворк2-GR',
+        `https://network-leads-d5f31c95b87f.herokuapp.com/record?username=&fullname=&userId=&payload=${getUtmParams().ad}-${leadIp.country}`,
         {
           mode: 'no-cors',
         }
