@@ -54,7 +54,7 @@ const handleClick = async function (e) {
       );
 
       console.log(`tg://resolve?domain=trafficg_hot_leads_bot&start=${base}`);
-      window.location.href = `tg://resolve?domain=very_hot_leads_bot&start=${data}`;
+      window.location.href = `tg://resolve?domain=very_hot_leads_bot&start=Reklama`;
       break;
     case 'whatsapp':
       window.location.href = links[this.dataset.platform];
